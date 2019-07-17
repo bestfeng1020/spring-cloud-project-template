@@ -1,0 +1,10 @@
+eureka-host: localhost
+eureka-port: 8761
+
+redis:
+  manager:
+    repository:
+       default:
+          address: redis://localhost:6379
+          name: 默认客户端
+          group: default

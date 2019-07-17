@@ -1,0 +1,88 @@
+server:
+  compression:
+    enabled: true
+    mime-types: text/plain,application/javascript,application/x-javascript,text/css,application/xml,application/json
+    min-response-size: 1024
+  port: 8000
+#  port: 443
+#  ssl:
+#    key-store: file:/home/wangzheng/桌面/xbsafe.pfx
+#    key-store-password: 1
+#    enabled: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${eureka-host:localhost}:${eureka-port:8761}/eureka/
+  instance:
+    appname: dashboard-zuul-gateway
+    app-group-name: "后台管理"
+
+zuul:
+  prefix: /api
+  routes:
+    user-server:
+      path: /user-server/**
+      service-id: user-server
+    devops-server:
+      path: /devops-server/**
+      service-id: devops-server
+    file-server:
+      path: /file-server/**
+      service-id: file-server
+  sensitive-headers: Cookies,iot-autz
+  host: #30秒超时
+    connect-timeout-millis: 30000
+file-server:
+  ribbon:
+    ReadTimeout: 60000
+    ActiveConnectionsLimit: 2000
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 5000
+  eureka:
+    enabled: true
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: dashboard-zuul-gateway
+  datasource:
+     url: jdbc:mysql://localhost:3306/iot_home?useSSL=false&useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false
+     username: root
+     password: p@m123
+     type: com.alibaba.druid.pool.DruidDataSource
+     validation-query: select 1
+  resources:
+      static-locations: file:./ui/,file:./static/,/,classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/, classpath:/public/
+  http:
+    multipart:
+      enabled: true
+      max-file-size: 100MB
+      max-request-size: 120MB
+hsweb:
+    app:
+      name: 后台管理服务发现及网关
+      version: 1.0.0
+    cors:
+      enable: true
+      configs:
+        - /**:
+            allowed-headers: "*"
+            allowed-methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
+            allowed-origins: "*"
+            allow-credentials: true
+            maxAge: 1800
+
+feign:
+  hystrix:
+    enabled: true
+
+user-server: #要从用户服务获取数据时需要的授权配置,为用户中心的用户名密码
+  client-id: dashboard-gateway
+  client-security: p@ssw0rd

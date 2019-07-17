@@ -1,0 +1,22 @@
+spring:
+  datasource:
+     type: com.alibaba.druid.pool.DruidDataSource
+     driver-class-name : com.mysql.jdbc.Driver
+     url : jdbc:mysql://rm-wz94o3p805i7ry5p1so.mysql.rds.aliyuncs.com:3306/iot_home?useSSL=false&useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false
+     username : root
+     password : p@ssw0rd
+  cloud:
+    stream:
+      rabbit:
+        binder:
+          nodes: localhost:5672
+      default-binder: rabbit
+logging:
+  level:
+    org.hswebframework.web: DEBUG
+    org.hswebframework.web.cache: WARN
+    com.zmcsoft: DEBUG
+    org.apache.ibatis: DEBUG
+    org.mybatis: DEBUG
+
+

@@ -1,0 +1,43 @@
+spring:
+  aop:
+     auto: true
+  datasource:
+     driver-class-name : com.mysql.jdbc.Driver
+     url : jdbc:mysql://rm-wz94o3p805i7ry5p1so.mysql.rds.aliyuncs.com:3306/iot_home?useSSL=false&useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false
+     username : root
+     password : p@ssw0rd
+  application:
+    name: file-server
+  profiles:
+    active: dev
+  http:
+    multipart:
+      enabled: true
+      max-file-size: 100MB
+      max-request-size: 120MB
+resources: #静态文件存放地址
+  static-locations: file:./ui/,file:/diskd/iotfiles/,/,classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/, classpath:/public/
+hsweb:
+  app:
+    name: 文件服务
+    version: 1.0.0
+  web:
+    upload:
+      static-file-path: /diskd/iotfiles/upload #静态文件存储的路径#./ui/upload
+      static-location: http://203.132.32.234:8000/api/file-server/upload/
+      file-path: /diskd/share/upload/file
+server:
+    port: 9090
+logging:
+  level:
+    org.hswebframework.web: debug
+    com.zmcsoft.iot: debug
+feign:
+  hystrix:
+    enabled: true
+eureka:
+  client:
+    service-url:
+        defaultZone: http://${eureka-host:localhost}:${eureka-port:8761}/eureka/
+#  instance:
+#    hostname: file.cloud.hsweb.me

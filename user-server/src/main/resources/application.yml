@@ -1,0 +1,103 @@
+spring:
+  aop:
+    auto: true
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    filters: stat
+    max-active: 1000
+    initial-size: 5
+    min-idle: 5
+    max-wait: 50000
+    min-evictable-idle-time-millis: 300000
+    test-while-idle: true
+    test-on-borrow: false
+    test-on-return: false
+    pool-prepared-statements: false
+    validation-query: select 1
+    time-between-eviction-runs-millis: 60000
+    max-open-prepared-statements: 2000
+  application:
+    name: user-server
+  profiles:
+    active: dev
+  cache:
+    type: simple
+  cloud:
+    stream:
+      default:
+        group: ${spring.application.name}
+        consumer:
+          header-mode: raw
+          content-type: application/json
+        producer:
+          header-mode: raw
+          content-type: application/json
+
+management:
+  security:
+    enabled: false
+  port: 1${server.port}
+hsweb:
+  app:
+    name: 用户中心服务
+    version: 1.0.0
+  authorize:
+    #      auto-parse: true
+    #      sync: true
+    allopatric-login-modes:
+      iot-user: offlineOther #异地登录模式,踢出其他地方登录的用户
+      #app-token: offlineOther #APP异地登录模式,踢出其他地方登录的用户
+  socket:
+    max-text-message-buffer-size: 10485760
+server:
+  port: 9001
+iot:
+  redis:
+    clients:
+      default:  #默认的redis配置
+        hosts: redis://127.0.0.1:6379
+        database: 0
+    user-token:  # 开启redis管理user-token,只有user模块才需要开启
+      enable: true
+ribbon:
+  ReadTimeout: 100000
+  ConnectTimeout: 2000
+  okhttp:
+    enabled: true
+  http:
+    client:
+      enabled: false
+logging:
+  level:
+    business: TRACE
+    system: TRACE
+mybatis:
+  mapper-locations: classpath*:com/zmcsoft/iot/**/*Mapper.xml
+  type-handlers-package: com.zmcsoft.iot.user.enums,com.zmcsfot.iot.authorization.client.enums
+wechat:
+  login:
+    redirectUri: http://f5ea2726.ngrok.io/api/user-server/wechat
+  mp:
+    app-id: wxcc4d548072deeaab
+    secret: 14c00903ad25a12fd16ab7a64a2b0b73
+    token: 9661a5ea26eb4cd3af234445fff1e866
+    aesKey: 94EBtz1kgvwra9DcAKIRepSvlwLikzq3iF97VviHANx
+messages:
+  login:
+    sp-code: "103904"
+    login-name: fs_nhsw
+    password: "088046"
+    term-of-validity: 300000
+    app-url: "iot.gcable.cn/admin/app/download.html"
+access:
+  logger:
+    excludes:
+      java: com.zmcsoft.iot.user.controller.UserAuthorizeInfoController.*
+tcl:
+  url: https://io.zx.test.tcljd.net/app/auth/thirdUserRegister
+  appId: MywQwU0hWkj4wBZTbj
+  company: TCL
+  brand: TCL
+  clientType: 2
+  category: PH

@@ -1,0 +1,25 @@
+spring:
+  aop:
+     auto: true
+  datasource:
+    driver-class-name : com.mysql.jdbc.Driver
+    url : jdbc:mysql://rm-wz94o3p805i7ry5p1so.mysql.rds.aliyuncs.com:3306/iot_home?useSSL=false&useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false
+    username : root
+    password : p@ssw0rd
+  application:
+    name: devops-server
+  profiles:
+    active: dev
+hsweb:
+    app:
+      name: 开发运维服务
+      version: 1.0.0
+server:
+    port: 9010
+logging:
+  level:
+    org.hswebframework.web: debug
+    com.zmcsoft.iot: debug
+feign:
+  hystrix:
+    enabled: true
