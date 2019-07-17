@@ -53,9 +53,9 @@ spring:
   application:
     name: dashboard-zuul-gateway
   datasource:
-     url: jdbc:mysql://localhost:3306/iot_home?useSSL=false&useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false
+     url: jdbc:mysql://localhost:3306/cloud_template?useSSL=false&useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false
      username: root
-     password: p@m123
+     password: m123
      type: com.alibaba.druid.pool.DruidDataSource
      validation-query: select 1
   resources:

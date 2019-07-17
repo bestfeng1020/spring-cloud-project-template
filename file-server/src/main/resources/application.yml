@@ -31,7 +31,7 @@ server:
 logging:
   level:
     org.hswebframework.web: debug
-    com.zmcsoft.iot: debug
+    org.bestfeng.template: debug
 feign:
   hystrix:
     enabled: true

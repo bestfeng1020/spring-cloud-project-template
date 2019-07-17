@@ -147,13 +147,13 @@ public class RedisConfiguration {
         };
     }
 
-    @Bean
+   /* @Bean
     public RedissonDeviceMessageHandler deviceMessageHandler(RedissonClientRepository repository) {
         return new RedissonDeviceMessageHandler(repository.getClient("device-registry")
                 .orElseGet(repository::getDefaultClient));
-    }
+    }*/
 
-    @Bean
+    /*@Bean
     public RedissonDeviceRegistry deviceRegistry(RedissonClientRepository repository,
                                                  DeviceMessageHandler messageHandler,
                                                  ProtocolSupports protocolSupports) {
@@ -162,9 +162,9 @@ public class RedisConfiguration {
                 repository.getClient("device-registry").orElseGet(repository::getDefaultClient),
                 messageHandler,
                 protocolSupports);
-    }
+    }*/
 
-    @Bean
+   /* @Bean
     public BeanPostProcessor deviceMessageSenderAutoRegister(RedissonDeviceRegistry registry) {
         return new BeanPostProcessor() {
             @Override
@@ -180,5 +180,5 @@ public class RedisConfiguration {
                 return o;
             }
         };
-    }
+    }*/
 }

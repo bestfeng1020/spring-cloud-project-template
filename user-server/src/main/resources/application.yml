@@ -73,8 +73,8 @@ logging:
     business: TRACE
     system: TRACE
 mybatis:
-  mapper-locations: classpath*:com/zmcsoft/iot/**/*Mapper.xml
-  type-handlers-package: com.zmcsoft.iot.user.enums,com.zmcsfot.iot.authorization.client.enums
+  mapper-locations: classpath*:org/bestfeng/template/**/*Mapper.xml
+  type-handlers-package: org.bestfeng.template.user.enums,org.bestfeng.template.authorization.client.enums
 wechat:
   login:
     redirectUri: http://f5ea2726.ngrok.io/api/user-server/wechat
@@ -93,11 +93,4 @@ messages:
 access:
   logger:
     excludes:
-      java: com.zmcsoft.iot.user.controller.UserAuthorizeInfoController.*
-tcl:
-  url: https://io.zx.test.tcljd.net/app/auth/thirdUserRegister
-  appId: MywQwU0hWkj4wBZTbj
-  company: TCL
-  brand: TCL
-  clientType: 2
-  category: PH
+      java: org.bestfeng.template.user.controller.UserAuthorizeInfoController.*

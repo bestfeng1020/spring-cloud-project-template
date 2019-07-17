@@ -33,7 +33,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring.boot.version}</version>
                 <configuration>
-                    <mainClass>org.bestfeng.template.UserServerApplication</mainClass>
+                    <mainClass>org.bestfeng.template.user.UserServerApplication</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
                 <executions>
@@ -48,8 +48,8 @@
     </build>
     <dependencies>
         <dependency>
-            <groupId>com.zmcsoft.iot</groupId>
-            <artifactId>iot-authorization</artifactId>
+            <groupId>org.bestfeng</groupId>
+            <artifactId>template-authorization</artifactId>
         </dependency>
 
         <dependency>
