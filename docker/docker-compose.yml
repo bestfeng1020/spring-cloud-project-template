@@ -1,0 +1,47 @@
+version: '2'
+services:
+  redis:
+    image: redis
+    volumes:
+      - "./data/redis:/data"
+    command: redis-server --appendonly yes
+    ports:
+    - "6379:6379"
+  rabbit-mq:
+    image: rabbitmq:3-management
+    ports:
+    - "15672:15672"
+    - "5672:5672"
+    environment:
+      APPLICATION_SECRET: admin
+  elasticsearch:
+    image: elasticsearch:6.7.2
+    volumes:
+    - ./data/elasticsearch:/usr/share/elasticsearch/data
+    environment:
+      ES_JAVA_OPTS: -Djava.net.preferIPv4Stack=true -Xms1g -Xmx1g
+      transport.host: 0.0.0.0
+      discovery.zen.minimum_master_nodes: 1
+      discovery.zen.ping.unicast.hosts: elasticsearch
+      discovery.type: single-node
+    ports:
+    - "9200:9200"
+    - "9300:9300"
+  kibana:
+    image: kibana:6.7.2
+    environment:
+      ELASTICSEARCH_URL: http://elasticsearch:9200
+    ports:
+    - "5601:5601"
+    depends_on:
+    - elasticsearch
+#  nacos:
+#    image: nacos/nacos-server:1.0.0
+#    container_name: nacos-standalone
+#    environment:
+#    - PREFER_HOST_MODE=hostname
+#    - MODE=standalone
+#    volumes:
+#    - ./custom.properties:/home/nacos/init.d/custom.properties
+#    ports:
+#    - "8848:8848"
