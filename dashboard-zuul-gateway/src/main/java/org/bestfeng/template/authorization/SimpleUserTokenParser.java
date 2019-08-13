@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 public class SimpleUserTokenParser implements UserTokenParser {
     @Override
     public ParsedToken parseToken(HttpServletRequest request) {
-        String header = request.getHeader("iot-user");
+        String header = request.getHeader("template-token");
         if (StringUtils.isEmpty(header)) {
             return null;
         }
@@ -27,7 +27,7 @@ public class SimpleUserTokenParser implements UserTokenParser {
 
             @Override
             public String getType() {
-                return "iot-user";
+                return "template-token";
             }
         };
     }

@@ -1,93 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60a8fd36-6a60-42ba-9d42-d3f8dfd3164b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.me" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/DashboardGateWayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/GlobalErrorFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/AppUserTokenParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/AuthorizationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/MicroServiceAuthConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/OAuth2UserTokenParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/PageCacheDisableConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/SimpleSessionIdUserTokenParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/SimpleUserTokenParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/UserAuthorizeInfoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devops-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devops-server/src/main/java/org/bestfeng/template/div/DevOpsServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devops-server/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devops-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/org/bestfeng/template/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file-server/src/main/java/org/bestfeng/template/FileServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file-server/src/main/java/org/bestfeng/template/FixInputStreamCloseLocalFileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file-server/src/main/java/org/bestfeng/template/SwaggerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file-server/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/servers-dependencies/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/servers-dependencies/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-authorization/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/CustomerAuthenticationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/CustomerAuthorizationArgumentResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/CustomerUserAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/CustomerUserAuthenticationAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/CustomerUserAuthenticationHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/CustomerUserAuthenticationSupplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/DeviceGatewayDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/FeignAuthenticationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/FeignUserAuthenticationOnlyConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/IotMicroServiceTokenParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/SimpleCustomerUserAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/enums/PermissionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/enums/UserPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-import-excel/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-import-excel/src/main/java/org/bestfeng/template/excel/ErrorInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-import-excel/src/main/java/org/bestfeng/template/excel/ImportConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-import-excel/src/main/java/org/bestfeng/template/excel/LocalImportConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-import-excel/src/main/java/org/bestfeng/template/excel/annotations/ExcelHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-import-excel/src/main/java/org/bestfeng/template/excel/sql/SqlHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-logging/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/AccessLoggerDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/AccessLoggerFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/AccessLoggerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/AccessLoggerRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/AccessLoggerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/ExcludeDataFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/ExcludeLoggerFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/IotLogAppender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/IotLoggingAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/SystemLoggerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-logging/template-logging.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/AutoClearCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/DefaultRedissonClientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/MultiRedissonProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/RedisConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/RedissonClientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/RedissonProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/SyncOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/SyncOperationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/provider/RedisLoggingProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/SwaggerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/UserServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="60a8fd36-6a60-42ba-9d42-d3f8dfd3164b" name="Default Changelist" comment="模板基础框架前端提交">
+      <change afterPath="$PROJECT_DIR$/devops-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/MicroServiceTokenParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/TemplateUserTokenGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/web/UserLockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/src/main/resources/hsweb-starter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-project-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-project-template.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/AppUserTokenParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/AuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/AuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/MicroServiceAuthConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/MicroServiceAuthConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/SimpleUserTokenParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/SimpleUserTokenParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/FeignAuthenticationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/FeignAuthenticationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/FeignUserAuthenticationOnlyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/FeignUserAuthenticationOnlyConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/IotMicroServiceTokenParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/TemplateMicroServiceTokenParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/ExcludeDataFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/ExcludeDataFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/RedissonProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/RedissonProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/provider/RedisLoggingProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/provider/RedisLoggingProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/admin/form/designer-drag/file-upload-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/admin/form/designer-drag/file-upload-2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/admin/form/designer-drag/file-upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/admin/form/designer-drag/file-upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/admin/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/admin/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/admin/index2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/plugins/tools/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/plugins/tools/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -109,55 +51,135 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cloud_template@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cloud_template@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cloud_template@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cloud_template: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-2039343395">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="19" />
+          <entry key="css" value="1" />
           <entry key="factories" value="2" />
+          <entry key="html" value="8" />
           <entry key="iml" value="1" />
-          <entry key="java" value="105" />
-          <entry key="me" value="2" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="48" />
+          <entry key="java" value="255" />
+          <entry key="js" value="10" />
+          <entry key="json" value="1" />
+          <entry key="me" value="3" />
+          <entry key="properties" value="2" />
+          <entry key="s_autz_detail" value="1" />
+          <entry key="s_autz_menu" value="1" />
+          <entry key="s_autz_setting" value="1" />
+          <entry key="s_dashboard_conf" value="1" />
+          <entry key="s_department" value="1" />
+          <entry key="s_dict_item" value="1" />
+          <entry key="s_dict_parser" value="1" />
+          <entry key="s_dictionary" value="1" />
+          <entry key="s_district" value="1" />
+          <entry key="s_menu" value="1" />
+          <entry key="s_menu_group" value="1" />
+          <entry key="s_menu_group_bind" value="1" />
+          <entry key="s_oauth2_access" value="1" />
+          <entry key="s_oauth2_auth_code" value="1" />
+          <entry key="s_oauth2_client" value="1" />
+          <entry key="s_organization" value="1" />
+          <entry key="s_permission" value="1" />
+          <entry key="s_permission_role" value="1" />
+          <entry key="s_person" value="1" />
+          <entry key="s_person_position" value="1" />
+          <entry key="s_position" value="1" />
+          <entry key="s_relation_def" value="1" />
+          <entry key="s_relation_info" value="1" />
+          <entry key="s_role" value="2" />
+          <entry key="s_system" value="2" />
+          <entry key="s_user" value="6" />
+          <entry key="s_user_role" value="1" />
+          <entry key="s_user_setting" value="1" />
+          <entry key="sh" value="1" />
+          <entry key="sql" value="1" />
+          <entry key="ts" value="1" />
+          <entry key="xml" value="53" />
           <entry key="xsd" value="1" />
-          <entry key="yml" value="17" />
+          <entry key="yml" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="19" />
+          <entry key="CSS" value="1" />
+          <entry key="Database Element" value="35" />
+          <entry key="HTML" value="8" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="105" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="49" />
-          <entry key="YAML" value="17" />
+          <entry key="JAVA" value="255" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="10" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Properties" value="2" />
+          <entry key="Scratch" value="1" />
+          <entry key="TypeScript" value="1" />
+          <entry key="XML" value="54" />
+          <entry key="YAML" value="38" />
           <entry key="spring.factories" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="6" />
+          <entry key="dummy" value="7" />
           <entry key="factories" value="8" />
-          <entry key="java" value="232" />
+          <entry key="html" value="56" />
+          <entry key="java" value="478" />
+          <entry key="js" value="58" />
           <entry key="me" value="4" />
-          <entry key="xml" value="444" />
-          <entry key="yml" value="13" />
+          <entry key="txt" value="65" />
+          <entry key="xml" value="458" />
+          <entry key="yml" value="167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="232" />
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="XML" value="444" />
-          <entry key="YAML" value="13" />
+          <entry key="HTML" value="56" />
+          <entry key="JAVA" value="478" />
+          <entry key="JavaScript" value="58" />
+          <entry key="PLAIN_TEXT" value="76" />
+          <entry key="XML" value="458" />
+          <entry key="YAML" value="167" />
           <entry key="spring.factories" value="8" />
         </counts>
       </usages-collector>
@@ -166,10 +188,43 @@
           <entry key="actions.SpringChangeActiveProfiles" value="3" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages">
+        <counts>
+          <entry key="LiveBeansNavigationHandler.fromCode" value="3" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ui/admin/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="852">
+              <caret line="332" column="2" lean-forward="true" selection-start-line="298" selection-start-column="43" selection-end-line="332" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/web/UserLockController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/admin/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -180,12 +235,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>druid</find>
-      <find>feign</find>
-      <find>logging</find>
-      <find>SR</find>
-      <find>zmcs</find>
-      <find>zmcsoft</find>
+      <find>s_user</find>
+      <find>compile</find>
+      <find>UnsupportedOperationException</find>
+      <find>userTokenGenerators</find>
+      <find>iot</find>
+      <find>TOKEN_TYPE_SESSION_ID</find>
+      <find>物联网</find>
+      <find>&quot;authorize</find>
+      <find>authorize/me</find>
+      <find>AuthorizingHandler</find>
+      <find>run</find>
+      <find>AopAuthorizingController</find>
+      <find>defaultParser</find>
+      <find>methodInvocation</find>
+      <find>401</find>
+      <find>iot-basic</find>
+      <find>template-token</find>
+      <find>requestId</find>
+      <find>login&quot;</find>
+      <find>UserOnSignIn</find>
+      <find>iot-user</find>
+      <find>iot-</find>
+      <find>广东</find>
+      <find>doLogin</find>
+      <find>dcp</find>
+      <find>login-out</find>
+      <find>&quot;user-lock</find>
+      <find>logout</find>
+      <find>用户还未登录</find>
+      <find>注销</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -194,29 +273,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/UserApplication.java" />
-        <option value="$PROJECT_DIR$/dependencies-server/pom.xml" />
-        <option value="$PROJECT_DIR$/server-dependencies/pom.xml" />
-        <option value="$PROJECT_DIR$/template-component/servers-dependencies/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/user-server/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/AppUserTokenParser.java" />
-        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/AuthorizationFilter.java" />
-        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/PageCacheDisableConfiguration.java" />
-        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/MicroServiceAuthConfiguration.java" />
-        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/OAuth2UserTokenParser.java" />
-        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/SimpleSessionIdUserTokenParser.java" />
-        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/SimpleUserTokenParser.java" />
-        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/UserAuthorizeInfoClient.java" />
-        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/DashboardGateWayApplication.java" />
-        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/GlobalErrorFilter.java" />
-        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/file-server/src/main/java/org/bestfeng/template/SwaggerConfiguration.java" />
-        <option value="$PROJECT_DIR$/file-server/pom.xml" />
-        <option value="$PROJECT_DIR$/file-server/src/main/java/org/bestfeng/template/FixInputStreamCloseLocalFileService.java" />
         <option value="$PROJECT_DIR$/template-component/template-import-excel/pom.xml" />
         <option value="$PROJECT_DIR$/template-component/template-import-excel/src/main/java/org/bestfeng/template/excel/annotations/ExcelHeader.java" />
         <option value="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/AccessLoggerFilter.java" />
@@ -228,7 +284,6 @@
         <option value="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/AccessLoggerInfo.java" />
         <option value="$PROJECT_DIR$/template-component/pom.xml" />
         <option value="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/AccessLoggerDispatcher.java" />
-        <option value="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/ExcludeDataFilter.java" />
         <option value="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/enums/PermissionType.java" />
         <option value="$PROJECT_DIR$/template-component/template-authorization/src/main/resources/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/enums/PermissionType.java" />
@@ -245,6 +300,30 @@
         <option value="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/UserServerApplication.java" />
         <option value="$PROJECT_DIR$/devops-server/pom.xml" />
         <option value="$PROJECT_DIR$/devops-server/src/main/java/org/bestfeng/template/div/DevOpsServerApplication.java" />
+        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/user-server/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/RedisConfiguration.java" />
+        <option value="$PROJECT_DIR$/user-server/pom.xml" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/UserServerApplication.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/AuthorizationFilter.java" />
+        <option value="$PROJECT_DIR$/ui/admin/index2.html" />
+        <option value="$PROJECT_DIR$/user-server/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/AppUserTokenParser.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/config/DevConfiguration.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/templateUserTokenGenerator.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/MicroServiceTokenParser.java" />
+        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/MicroServiceAuthConfiguration.java" />
+        <option value="$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/ExcludeDataFilter.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/TemplateUserTokenGenerator.java" />
+        <option value="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/SimpleUserTokenParser.java" />
+        <option value="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/IotMicroServiceTokenParser.java" />
+        <option value="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/TemplateMicroServiceTokenParser.java" />
+        <option value="$PROJECT_DIR$/../../jetlinks/data-center-platform/authentication-service/src/main/java/com/zmcsoft/dcp/authentication/web/UserLockController.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/web/UserLockController.java" />
+        <option value="$PROJECT_DIR$/ui/admin/index.html" />
+        <option value="$PROJECT_DIR$/ui/admin/index.js" />
       </list>
     </option>
   </component>
@@ -256,12 +335,29 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="user-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="user-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/ui/plugins/require-css/0.1.10/package.json" />
+      <path value="$PROJECT_DIR$/ui/plugins/script-editor/ace/mode/_test/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-16" />
+    <option name="y" value="25" />
     <option name="width" value="1920" />
     <option name="height" value="977" />
   </component>
@@ -271,7 +367,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,18 +374,73 @@
               <item name="spring-cloud-project-template" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-project-template" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-cloud-project-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-project-template" type="462c0819:PsiDirectoryNode" />
+              <item name="user-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-project-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-project-template" type="462c0819:PsiDirectoryNode" />
+              <item name="user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-project-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-project-template" type="462c0819:PsiDirectoryNode" />
+              <item name="user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-project-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-project-template" type="462c0819:PsiDirectoryNode" />
+              <item name="user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-project-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-project-template" type="462c0819:PsiDirectoryNode" />
+              <item name="user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-project-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-project-template" type="462c0819:PsiDirectoryNode" />
+              <item name="user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="UserLockController&#9;FILE&#9;file:///Users/ayan/IdeaProjects/test/spring-boot-start-template/src/main/java/org/bestfeng/template/controller/UserLockController.java&#10;WebUserTokenInterceptor&#9;FILE&#9;jar:///Users/ayan/.m2/repository/org/hswebframework/web/hsweb-authorization-basic/3.0.8/hsweb-authorization-basic-3.0.8-sources.jar!/org/hswebframework/web/authorization/basic/web/WebUserTokenInterceptor.java&#10;UserOnSignIn&#9;PSI&#9;JAVA://org.hswebframework.web.authorization.basic.web.UserOnSignIn&#10;AuthorizationController&#9;FILE&#9;jar:///Users/ayan/.m2/repository/org/hswebframework/web/hsweb-authorization-basic/3.0.8/hsweb-authorization-basic-3.0.8-sources.jar!/org/hswebframework/web/authorization/basic/web/AuthorizationController.java&#10;UserTokenForTypeParser&#9;PSI&#9;JAVA://org.hswebframework.web.authorization.basic.web.UserTokenForTypeParser&#10;UserTokenGenerator&#9;PSI&#9;JAVA://org.hswebframework.web.authorization.basic.web.UserTokenGenerator&#10;AopAuthorizingController&#9;PSI&#9;JAVA://org.hswebframework.web.authorization.basic.aop.AopAuthorizingController&#10;DefaultJdbcExecutor&#9;PSI&#9;JAVA://org.hswebframework.web.datasource.DefaultJdbcExecutor" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563332406593" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565660855724" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -300,16 +450,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.bestfeng.template.user.web" />
+      <recent name="org.bestfeng.template.user.config" />
       <recent name="org.bestfeng.template.div" />
       <recent name="org.bestfeng.template.logging" />
       <recent name="org.bestfeng.template" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config" />
       <recent name="$PROJECT_DIR$/devops-server/src/main/resources" />
-      <recent name="$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template" />
       <recent name="$PROJECT_DIR$/user-server/src/main/resources" />
-      <recent name="$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis" />
-      <recent name="$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client" />
+      <recent name="$PROJECT_DIR$/docker" />
+      <recent name="$PROJECT_DIR$/dashboard-zuul-gateway/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -328,6 +480,7 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.20796943" />
   </component>
   <component name="RunManager" selected="Spring Boot.UserApplication">
     <configuration name="DashboardGateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -360,7 +513,7 @@
     </configuration>
     <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="user-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.bestfeng.template.UserServerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.bestfeng.template.user.UserServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -386,17 +539,45 @@
       <workItem from="1562843563193" duration="161000" />
       <workItem from="1562893804387" duration="2964000" />
       <workItem from="1563153984556" duration="19135000" />
-      <workItem from="1563327351431" duration="4701000" />
+      <workItem from="1563327351431" duration="14538000" />
+      <workItem from="1563431073602" duration="15911000" />
+      <workItem from="1564050879363" duration="15000" />
+      <workItem from="1564104863733" duration="145000" />
+      <workItem from="1565421055583" duration="1903000" />
+      <workItem from="1565574728972" duration="21761000" />
     </task>
+    <task id="LOCAL-00001" summary="模板基础框架">
+      <created>1563332655740</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563332655740</updated>
+    </task>
+    <task id="LOCAL-00002" summary="模板基础框架前端提交">
+      <created>1563354761437</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563354761437</updated>
+    </task>
+    <task id="LOCAL-00003" summary="docker-compose 配置文件">
+      <created>1564104973743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564104973743</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26961000" />
+    <option name="totallyTimeSpent" value="76533000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="977" extended-state="6" />
+    <frame x="-16" y="25" width="1920" height="977" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3270878" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23072805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -413,12 +594,14 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19630484" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005353" side_tool="true" weight="0.2251732" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.17898384" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50214136" side_tool="true" weight="0.8210162" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49946466" visible="true" weight="0.16859123" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49785867" visible="true" weight="0.295612" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.37066975" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.3290993" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -427,9 +610,9 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32976446" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.2901499" />
-      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32976446" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.12633833" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,304 +621,406 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="模板基础框架" />
+    <MESSAGE value="模板基础框架前端提交" />
+    <MESSAGE value="docker-compose 配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker-compose 配置文件" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>getCurrentUserToken()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Optional.ofNullable(getCurrentUserToken())
+                        .filter(UserToken::validate)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Authentication.class.getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>userTokenGenerators.get(0).getSupportTokenType().equals(&quot;sessionId&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>event.getParameter(&quot;token_type&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/enums/UserPermission.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/enums/PermissionType.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/FeignUserAuthenticationOnlyConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/SimpleCustomerUserAuthentication.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/CustomerUserAuthenticationAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/CustomerUserAuthenticationSupplier.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/CustomerUserAuthenticationHolder.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/IotMicroServiceTokenParser.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/CustomerUserAuthentication.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/CustomerAuthenticationManager.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/enums/PermissionType.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-system-authorization-local/3.0.8/hsweb-system-authorization-local-3.0.8-sources.jar!/org/hswebframework/web/service/authorization/simple/SimpleAuthenticationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="550">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-authorization/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="77" lean-forward="true" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-import-excel/src/main/java/org/bestfeng/template/excel/annotations/ExcelHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-import-excel/src/main/java/org/bestfeng/template/excel/sql/SqlHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-import-excel/src/main/java/org/bestfeng/template/excel/ErrorInfo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-commons-utils/3.0.8/hsweb-commons-utils-3.0.8.jar!/org/hswebframework/web/ThreadLocalUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-import-excel/src/main/java/org/bestfeng/template/excel/ImportConstructor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-api/3.0.8/hsweb-authorization-api-3.0.8-sources.jar!/org/hswebframework/web/authorization/token/TokenState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="155">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-import-excel/src/main/java/org/bestfeng/template/excel/LocalImportConstructor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-api/3.0.8/hsweb-authorization-api-3.0.8-sources.jar!/org/hswebframework/web/authorization/AuthenticationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        <state relative-caret-position="219">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-logging/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-api/3.0.8/hsweb-authorization-api-3.0.8-sources.jar!/org/hswebframework/web/authorization/token/UserToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        <state relative-caret-position="147">
+          <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
           <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-authorization/pom.xml">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Supplier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        <state relative-caret-position="258">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-api/3.0.8/hsweb-authorization-api-3.0.8-sources.jar!/org/hswebframework/web/authorization/token/UserTokenAuthenticationSupplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
           <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="e#2219#2220#0" expanded="true" />
+            <element signature="e#2272#2273#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/AutoClearCache.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/RedissonProperties.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/SyncOperation.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/SyncOperationService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/MultiRedissonProperties.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/RedisConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/DefaultRedissonClientRepository.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/RedissonClientRepository.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-redis/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-api/3.0.8/hsweb-authorization-api-3.0.8-sources.jar!/org/hswebframework/web/authorization/token/UserTokenHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-redis/src/main/java/org/bestfeng/template/redis/provider/RedisLoggingProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        <state relative-caret-position="200">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file-server/src/main/java/org/bestfeng/template/FileServerApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-commons-utils/3.0.8/hsweb-commons-utils-3.0.8-sources.jar!/org/hswebframework/web/ThreadLocalUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file-server/src/main/java/org/bestfeng/template/FixInputStreamCloseLocalFileService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file-server/src/main/java/org/bestfeng/template/SwaggerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file-server/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file-server/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1060" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/enums/UserPermission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="205">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1476#1477#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+            <element signature="e#2369#2370#0" expanded="true" />
+            <element signature="e#2418#2419#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/DashboardGateWayApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/context/RequestContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/GlobalErrorFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="199">
+          <caret line="212" column="16" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/AppUserTokenParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/AuthorizationFilter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-basic/3.0.8/hsweb-authorization-basic-3.0.8-sources.jar!/org/hswebframework/web/authorization/basic/web/UserTokenGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="230">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-basic/3.0.8/hsweb-authorization-basic-3.0.8-sources.jar!/org/hswebframework/web/authorization/basic/web/SessionIdUserTokenGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-basic/3.0.8/hsweb-authorization-basic-3.0.8-sources.jar!/org/hswebframework/web/authorization/basic/web/UserTokenForTypeParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/SimpleSessionIdUserTokenParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/config/SendMessageProperties.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/config/OAuth2UserTokenParser.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/config/BatchTaskConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/config/WechatMpProperties.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/config/IotUserTokenGenerator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/config/WechatConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/config/MicroServiceTokenParser.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/config/UserServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/config/DevConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-component/template-logging/src/main/java/org/bestfeng/template/logging/ExcludeDataFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/MicroServiceAuthConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/OAuth2UserTokenParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/PageCacheDisableConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/org/bestfeng/template/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
           <folding>
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-server/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-basic/3.0.8/hsweb-authorization-basic-3.0.8-sources.jar!/org/hswebframework/web/authorization/basic/web/UserOnSignIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="95" column="57" lean-forward="true" selection-start-line="95" selection-start-column="57" selection-end-line="95" selection-end-column="57" />
+        <state relative-caret-position="504">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/SwaggerConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/AuthorizationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="84" column="58" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-api/3.0.8/hsweb-authorization-api-3.0.8-sources.jar!/org/hswebframework/web/authorization/annotation/Authorize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-basic/3.0.8/hsweb-authorization-basic-3.0.8-sources.jar!/org/hswebframework/web/authorization/basic/web/AuthorizationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="70" column="74" selection-start-line="70" selection-start-column="74" selection-end-line="70" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-system-authorization-web/3.0.8/hsweb-system-authorization-web-3.0.8-sources.jar!/org/hswebframework/web/authorization/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="118" column="55" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-api/3.0.8/hsweb-authorization-api-3.0.8-sources.jar!/org/hswebframework/web/authorization/Authentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-basic/3.0.8/hsweb-authorization-basic-3.0.8-sources.jar!/org/hswebframework/web/authorization/basic/handler/DefaultAuthorizingHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="82" column="16" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-basic/3.0.8/hsweb-authorization-basic-3.0.8-sources.jar!/org/hswebframework/web/authorization/basic/handler/AuthorizingHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-basic/3.0.8/hsweb-authorization-basic-3.0.8-sources.jar!/org/hswebframework/web/authorization/basic/aop/AopAuthorizingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#2739#2751#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.22.RELEASE/spring-webmvc-4.3.22.RELEASE.jar!/org/springframework/web/servlet/handler/HandlerInterceptorAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-component/template-authorization/src/main/java/org/bestfeng/template/authorization/client/TemplateMicroServiceTokenParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard-zuul-gateway/src/main/java/org/bestfeng/template/authorization/SimpleUserTokenParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-basic/3.0.8/hsweb-authorization-basic-3.0.8-sources.jar!/org/hswebframework/web/authorization/basic/web/WebUserTokenInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-basic/3.0.8/hsweb-authorization-basic-3.0.8-sources.jar!/org/hswebframework/web/authorization/basic/configuration/AuthorizingHandlerAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="78" column="73" selection-start-line="78" selection-start-column="73" selection-end-line="78" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/UserServerApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-basic/3.0.8/hsweb-authorization-basic-3.0.8-sources.jar!/org/hswebframework/web/authorization/basic/configuration/BasicAuthorizationTokenParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="92">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hswebframework/web/hsweb-authorization-basic/3.0.8/hsweb-authorization-basic-3.0.8-sources.jar!/org/hswebframework/web/authorization/basic/web/UserTokenParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/MicroServiceTokenParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/admin/form/designer-drag/file-upload-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/config/TemplateUserTokenGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="9400" column="4" selection-start-line="9400" selection-start-column="4" selection-end-line="9400" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../jetlinks/data-center-platform/authentication-service/src/main/java/com/zmcsoft/dcp/authentication/web/UserLockController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring-boot-start-template/src/main/java/org/bestfeng/template/controller/UserLockController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/devops-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devops-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/org/bestfeng/template/user/web/UserLockController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+        <state relative-caret-position="88">
+          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/devops-server/src/main/java/org/bestfeng/template/div/DevOpsServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/ui/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/admin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="852">
+          <caret line="332" column="2" lean-forward="true" selection-start-line="298" selection-start-column="43" selection-end-line="332" selection-end-column="2" />
         </state>
       </provider>
     </entry>

@@ -33,7 +33,7 @@ public class RedissonProperties {
 
     private int timeout = 10000;
 
-    private String masterName = "iot-redis-cluster";
+    private String masterName = "template-redis-cluster";
 
     private Map<String, Object> config;
 

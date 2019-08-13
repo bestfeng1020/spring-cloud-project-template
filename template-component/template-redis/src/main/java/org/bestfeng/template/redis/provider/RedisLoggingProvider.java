@@ -23,7 +23,7 @@ public class RedisLoggingProvider {
     @Async
     public void handleAccessLoggerRequest(AccessLoggerRequest request) {
         redissonClient
-                .getTopic("iot-access-logger-request", new StringCodec())
+                .getTopic("template-access-logger-request", new StringCodec())
                 .publish(JSON.toJSONString(request));
     }
 
@@ -31,7 +31,7 @@ public class RedisLoggingProvider {
     @Async
     public void handleAccessLoggerResponse(AccessLoggerResponse response) {
         redissonClient
-                .getTopic("iot-access-logger-response", new StringCodec())
+                .getTopic("template-access-logger-response", new StringCodec())
                 .publish(JSON.toJSONString(response));
     }
 
@@ -39,7 +39,7 @@ public class RedisLoggingProvider {
     @Async
     public void handleSystemLogger(SystemLoggerInfo info) {
         redissonClient
-                .getTopic("iot-system-logger", new StringCodec())
+                .getTopic("template-system-logger", new StringCodec())
                 .publish(JSON.toJSONString(info));
     }
 }

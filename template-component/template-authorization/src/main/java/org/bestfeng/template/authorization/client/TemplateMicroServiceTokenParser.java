@@ -26,7 +26,7 @@ import javax.servlet.http.HttpServletRequest;
  * @author zhouhao
  * @since 3.0
  */
-public class IotMicroServiceTokenParser implements UserTokenParser, AuthenticationSupplier, CustomerUserAuthenticationSupplier {
+public class TemplateMicroServiceTokenParser implements UserTokenParser, AuthenticationSupplier, CustomerUserAuthenticationSupplier {
 
 
     @Autowired(required = false)
@@ -56,7 +56,7 @@ public class IotMicroServiceTokenParser implements UserTokenParser, Authenticati
 
     @Override
     public ParsedToken parseToken(HttpServletRequest request) {
-        String base64Autz = request.getHeader("iot-autz");
+        String base64Autz = request.getHeader("template-autz");
         if (StringUtils.isEmpty(base64Autz)) {
             return null;
         }
@@ -92,7 +92,7 @@ public class IotMicroServiceTokenParser implements UserTokenParser, Authenticati
 
             @Override
             public String getType() {
-                return "iot-autz";
+                return "template-autz";
             }
         };
     }

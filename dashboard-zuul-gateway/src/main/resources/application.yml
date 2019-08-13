@@ -30,7 +30,7 @@ zuul:
     file-server:
       path: /file-server/**
       service-id: file-server
-  sensitive-headers: Cookies,iot-autz
+  sensitive-headers: Cookies,template-autz
   host: #30秒超时
     connect-timeout-millis: 30000
 file-server:

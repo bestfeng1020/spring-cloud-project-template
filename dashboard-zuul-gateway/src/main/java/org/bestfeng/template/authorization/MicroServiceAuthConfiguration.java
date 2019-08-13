@@ -27,7 +27,7 @@ public class MicroServiceAuthConfiguration {
         return template -> {
             String requestId = ThreadLocalUtils.get("request-id", () -> IDGenerator.SNOW_FLAKE.generate().toString());
             template.header("request-id", requestId);
-            template.header("Authorization", "iot-basic " + Base64.encodeBase64String(String.join(":", clientId, clientSecurity)
+            template.header("Authorization", "template-basic " + Base64.encodeBase64String(String.join(":", clientId, clientSecurity)
                     .getBytes()));
         };
     }

@@ -1,0 +1,30 @@
+spring:
+  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#      config:
+#        endpoint: 127.0.0.1:8000
+#        server-addr: 127.0.0.1:8848
+#        file-extension: yml
+#        shared-dataids: devops-service.yml
+    discovery:
+      client:
+        simple:
+          local:
+            service-id: devops-server
+eureka:
+  client:
+    service-url:
+        defaultZone: http://${eureka-host:localhost}:${eureka-port:8761}/eureka/
+  instance:
+    lease-expiration-duration-in-seconds: 30
+    lease-renewal-interval-in-seconds: 10
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+          strategy: SEMAPHORE

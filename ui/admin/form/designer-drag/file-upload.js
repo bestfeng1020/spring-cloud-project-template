@@ -30,9 +30,9 @@
 
             require(["storejs"], function (storejs) {
                 uploader.on('uploadBeforeSend', function (e, param, headers) {
-                    var token = storejs.get("iot-user");
+                    var token = storejs.get("template-token");
                     if (token) {
-                        headers['iot-user'] = token;
+                        headers['template-token'] = token;
                     }
                 });
             });

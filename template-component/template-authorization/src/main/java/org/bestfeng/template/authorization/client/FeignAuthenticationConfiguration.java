@@ -31,13 +31,13 @@ public class FeignAuthenticationConfiguration {
             autzInfo.put("customer", customerUserAuthentication);
             template.header("request-id", requestId);
             if (null != authentication) {
-                template.header("iot-autz", Base64.encodeBase64String(JSON.toJSONBytes(autzInfo)));
+                template.header("template-autz", Base64.encodeBase64String(JSON.toJSONBytes(autzInfo)));
             }
         };
     }
 
     @Bean
-    public IotMicroServiceTokenParser iotMicroServiceTokenParser() {
-        return new IotMicroServiceTokenParser();
+    public TemplateMicroServiceTokenParser iotMicroServiceTokenParser() {
+        return new TemplateMicroServiceTokenParser();
     }
 }

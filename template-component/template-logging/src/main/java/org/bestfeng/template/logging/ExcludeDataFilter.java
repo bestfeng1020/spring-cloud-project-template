@@ -21,7 +21,7 @@ public class ExcludeDataFilter implements AccessLoggerFilter {
 
     @Getter
     @Setter
-    private Set<String> headers = new HashSet<>(Arrays.asList("iot-autz", "iot-user", "iot-basic","Authentication"));
+    private Set<String> headers = new HashSet<>(Arrays.asList("template-autz", "template-user", "template-basic","Authentication"));
 
     @Getter
     @Setter

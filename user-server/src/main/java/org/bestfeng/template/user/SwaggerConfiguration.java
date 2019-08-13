@@ -28,7 +28,7 @@ public class SwaggerConfiguration {
                 .modelRef(new ModelRef("string"));
         ParameterBuilder userToken = new ParameterBuilder()
                 .parameterType("header")
-                .name("iot-user")
+                .name("template-user")
                 .description("认证TOKEN")
                 .modelRef(new ModelRef("string"));
         List<Parameter> parameters = new ArrayList<>();

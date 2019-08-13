@@ -31,9 +31,9 @@ define(["jquery", "storejs"], function ($, storejs) {
 
     $.ajaxSetup({ //设置全局性的Ajax选项
         beforeSend: function (r, options) {
-            var token = storejs.get("iot-user");
+            var token = storejs.get("template-token");
             if (token) {
-                r.setRequestHeader("iot-user", token);
+                r.setRequestHeader("template-token", token);
             }
         }, cache: true
     });

@@ -82,7 +82,7 @@ public class AuthorizationFilter extends ZuulFilter {
                     .map(authorizeInfoClient::getDetail)
                     .findAny()
                     .map(ResponseMessage::getResult)
-                    .ifPresent(detail -> context.addZuulRequestHeader("iot-autz", Base64.encodeBase64String(detail.getBytes())));
+                    .ifPresent(detail -> context.addZuulRequestHeader("template-autz", Base64.encodeBase64String(detail.getBytes())));
 
         } catch (Exception e) {
             log.warn("获取权限信息时发生错误", e);

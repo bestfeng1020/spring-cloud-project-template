@@ -248,7 +248,7 @@ function initLogin() {
             var loding = message.loading("登录中...");
             var data = form.getData();
             request.post("authorize/login", {
-                token_type: "iot-user",
+                token_type: "template-token",
                 username: data.username,
                 password: data.password
             }, function (e) {
@@ -256,7 +256,7 @@ function initLogin() {
                 if (e.status === 200) {
                     mini.get("loginWindow").hide();
                     require(["storejs"], function (store) {
-                        store.set("iot-user", e.result.token);
+                        store.set("template-token", e.result.token);
                         if (window.onLoginSuccess) {
                             window.onLoginSuccess();
                         }
@@ -340,13 +340,6 @@ function initAuthorize(call) {
             if (call) {
                 call();
             }
-            request.get("person/me/authorization", function (me) {
-                me = me.result;
-                if (me && me.personnel) {
-                    $(".username").text(me.personnel.name);
-                    $(".user-img").attr("src", me.personnel.photo);
-                }
-            });
             initMenu();
         });
     });
